@@ -1,0 +1,26 @@
+{
+  "name": "monke-cipher",
+  "version": "1.0.0",
+  "description": "A blazing-fast, holistic, battle-tested enterprise-ready encryption toolkit for the 21st century.",
+  "main": "monkeCipher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orcanshul/monke-cipher.git"
+  },
+  "keywords": [
+    "encrypt",
+    "monke",
+    "javascript",
+    "secure",
+    "nft"
+  ],
+  "author": "Orcanshul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orcanshul/monke-cipher/issues"
+  },
+  "homepage": "https://github.com/orcanshul/monke-cipher#readme"
+}
