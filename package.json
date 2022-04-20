@@ -5,7 +5,7 @@
   "main": "monkeCipher.js",
   "module":"monkeCipherEs.js",
   "exports": {
-    "import": "./monkeCipher.js",
+    "import": "./monkeCipherEs.js",
     "require": "./monkeCipher.js"
   },
   "types": "./index.d.ts",
