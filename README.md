@@ -22,7 +22,11 @@ A highly secure and robust toolkit for securing data over the internet in a faul
 import { toMonkeCipher } from 'monke-cipher'
 toMonkeCipher("Secret Message")
 ```
+Or Use Via CDN
 
+```html
+ <script src="https://cdn.jsdelivr.net/gh/orcanshul/monke-cipher/monkeCipherWeb.js"></script>
+```
   
 
 ## FAQ
