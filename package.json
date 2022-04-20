@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "A blazing-fast, holistic, battle-tested enterprise-ready encryption toolkit for the 21st century.",
   "main": "monkeCipher.js",
+  "module":"monkeCipherEs.js",
+  "exports": {
+    "import": "./monkeCipher.js",
+    "require": "./monkeCipher.js"
+  },
+  "types": "./index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
