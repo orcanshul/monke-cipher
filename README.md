@@ -2,10 +2,11 @@
 # MonkeCipher 🐒 
 A highly secure and robust toolkit for securing data over the internet in a fault-safe way. Web 3.0, NFT, and blockchain ready ✔️
 
+**[Read The Paper Here](https://github.com/orcanshul/monke-cipher/blob/main/PAPER.md)**
 
 ## API Reference
 
-#### Get all items
+#### Cipher Text
 
 ```http
   toMonkeCipher(message)
@@ -25,7 +26,7 @@ toMonkeCipher("Secret Message")
 Or Use Via CDN
 
 ```html
- <script src="https://cdn.jsdelivr.net/gh/orcanshul/monke-cipher/monkeCipherWeb.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/monke-cipher/monkeCipherWeb.min.js"></script>
 ```
   
 

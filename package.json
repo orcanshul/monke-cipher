@@ -1,6 +1,6 @@
 {
   "name": "monke-cipher",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A blazing-fast, holistic, battle-tested enterprise-ready encryption toolkit for the 21st century.",
   "main": "monkeCipher.js",
   "module":"monkeCipherEs.js",
