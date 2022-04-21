@@ -1,0 +1,1 @@
+export declare function toMonkeCipher(str: string): string;
