@@ -1,4 +1,4 @@
-# Paper: Postmortem of MonkeCipher 🐒 🔒
+# Paper: Building MonkeCipher 🐒 🔒
 ## Created By Foothill Cybersecurity Laboratories
 
 MonkeCipher was born out of a need for a performant and secure method for transporting messages that could be decrypted by humans yet remain virtually impossible to brute force by computers.
