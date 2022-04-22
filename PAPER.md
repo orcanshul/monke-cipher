@@ -1,3 +1,4 @@
+
 # Paper: Building MonkeCipher 🐒 🔒
 ## Created By Foothill Cybersecurity Laboratories
 
@@ -66,6 +67,9 @@ toMonkeCipher("Secret Message")
 ```
 More information is on the official [Github](https://github.com/orcanshul/monke-cipher)
 
+### Part 3.3: Decrypting Programmatically
+MonkeCipher was not designed to be decrypted using a computer. It is built to be impossible to crack without a human. However, since version `1.2.0` the official English Implementation of MonkeCipher has included utilities to simulate the decryption process. The `MonkeDecryptionKey`is not documented in the MonkeCipher Specification and should never be used in production environments. This is soley included for development and local confirmation purposes.
+
 
 ## Part 4: Comparison to Prior Work
 MonkeCipher follows the design philosophy of the overlapping-index design. The overlapping-index is a proven, provably secure, crypto algorithm. There are other ciphers in the public domain, however, there are many reasons to prefer MonkeCipher over the other ciphers. Firstly, MonkeCipher is invulnerable to many common attacks such as
@@ -109,4 +113,4 @@ Each message M can be encrypted by taking the letters of M, converting them into
 ## Part 7: Conclusion
 MonkeCipher was inspired by the overlapping-index design. The overlapping-index design is a proven, provably secure, cryptographic algorithm. There are many implementations of ciphers and one of the most used in the market, ROT-13. MonkeCipher stands out from these other ciphers because it is not a single cipher, but a many-to-one encryption algorithm.
 
-**The overlapping-index implementation can be applied to many other cryptographic problems and has broad applications. **
+**The overlapping-index implementation can be applied to many other cryptographic problems and has broad applications.**
